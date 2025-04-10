@@ -1,29 +1,20 @@
-# Dependencies
-markdown:         redcarpet
-highlighter:      pygments
+title: Hyde
+email: you@example.com
+description: >- # this means to ignore newlines until "baseurl:"
+  A simple Jekyll theme.
+baseurl: "/study" # the subpath of your site, e.g. /blog
+url: "https://jayisthere.github.io" # your GitHub Pages URL
+twitter_username: jekyllrb
+github_username:  jekyll
 
-# Permalinks
-permalink:        pretty
-relative_permalinks: true
+theme: minima  # ← 기존 hyde 테마 대신 minima로 바꾸자
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate
 
-# Setup
-title:            Hyde
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              https://jayIsThere.github.io
-baseurl:          /study
+paginate: 5
+paginate_path: "/page:num"
 
-author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
-
-paginate:         5
-
-# Custom vars
-version:          2.1.0
-
-github:
-  repo:           https://github.com/jayIsThere/study/
-
-include:
-  - CNAME
+# GitHub Pages 환경에서 플러그인 동작하도록 허용
+github: [metadata]
