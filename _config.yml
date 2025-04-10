@@ -8,3 +8,10 @@ remote_theme: poole/hyde
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+
+
+paginate:         5
+relative_permalinks: true
+
+markdown:         redcarpet
+highlighter:      pygments
