@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: /study/about/
+permalink: /about/
 ---
 
 <p class="message">
