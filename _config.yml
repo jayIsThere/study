@@ -1,20 +1,10 @@
 title: Hyde
-email: you@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  A simple Jekyll theme.
-baseurl: "/study" # the subpath of your site, e.g. /blog
-url: "https://jayisthere.github.io" # your GitHub Pages URL
-twitter_username: jekyllrb
-github_username:  jekyll
+description: Just a blog
+baseurl: "/study"
+url: "https://jayisthere.github.io"
 
-theme: minima  # ← 기존 hyde 테마 대신 minima로 바꾸자
+remote_theme: poole/hyde
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-paginate
-
-paginate: 5
-paginate_path: "/page:num"
-
-# GitHub Pages 환경에서 플러그인 동작하도록 허용
-github: [metadata]
